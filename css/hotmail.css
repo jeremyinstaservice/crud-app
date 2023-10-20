@@ -1,0 +1,60 @@
+body {
+    background: url("http://wallpaper-gallery.net/images/calm-wallpaper/calm-wallpaper-13.jpg");
+    background-size: cover;
+  }
+  
+  
+  
+  #logo {
+    width: 120px;
+    margin: 0px 0px 10px 0px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    #logo {
+      width: 150px;
+    }
+  }
+  
+  .title {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 1.25rem;
+    margin-top: 1.25rem;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 300;
+    line-height: 1.75rem;
+    padding-bottom: 2.3632px;
+    padding-top: 2.3632px;
+    color: #1b1b1b;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0;
+    margin-top: 16px;
+    margin-bottom: 12px;
+    font-family: "Segoe UI","Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+  }
+
+
+  /* dkkkkkkkkkkkk */
+
+  .form-container {
+    display: flex;
+    height: 100%;
+  }
+  
+  .form-slide {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  #password-slide {
+    transform: translateX(100%);
+  }
