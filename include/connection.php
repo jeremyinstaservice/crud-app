@@ -2,7 +2,7 @@
 
 function connectToDB()
 {
-    $con = mysqli_connect("sql105.infinityfree.com", "if0_34958315", "QbfygG4HsaPpf6x", "if0_34958315_crud_site");
+    $con = mysqli_connect("127.0.0.1:3306", "u261292273_jeremy", "P*d8xCF?", "u261292273_crud_site");
 
     if (!$con) {
 
